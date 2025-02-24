@@ -1,0 +1,104 @@
+/* تنسيق صورة الغلاف */
+.cover-image {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* تنسيق زر رفع صورة الغلاف في الزاوية */
+.upload-form-cover {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.upload-input {
+    display: none;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+/* تنسيق صورة الملف الشخصي */
+.profile-image {
+    position: relative;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* تنسيق زر رفع صورة الملف الشخصي أسفل الصورة الشخصية */
+.upload-form-profile {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.upload-button-profile {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.upload-button-profile:hover {
+    background-color: #45a049;
+}
+
+/* تنسيق اسم المستخدم أسفل الصورة الشخصية */
+.profile-name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-name h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* تنسيق زر تعديل الملف الشخصي */
+.edit-profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.edit-profile-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit-profile-btn:hover {
+    background-color: #45a049;
+}
